@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #EDEEEA;
+  color: #1B1D1A;
+}
+
+/* Tabular figures for anything numeric so ledger-style columns align */
+.font-mono {
+  font-variant-numeric: tabular-nums;
+}
+
